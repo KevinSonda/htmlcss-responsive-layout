@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-size: 20px;
+}
+
+/* header*/
+
+header{
+    position: fixed;
+    padding: 20px 20px;
+    background-color: rgb(93, 93, 255);
+    color: white;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    max-width: 100%;
+}
+
+
+.col-50{
+    width: calc(100% / 2);
+    }
+    
+.content{
+    margin: 10px 0;
+}
+        
+.mobile-menu{
+    margin-top: 30px;
+}
+            
+    /*main*/
+
+main{
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    margin: 100px 0;
+}
+
+.content-aplication{
+    height: 250px;
+    padding: 40px;
+}
+
+.container-top-main{
+    background-color: rgb(150, 150, 253);
+    margin-top: 50px ;
+}
+
+.container-main{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 50px 0;
+}
+
+.col-main{
+    align-content: center;
+}
+
+
+
+.bg-violet-main{
+    background-color: blueviolet;
+    
+}
+
+.content-aplication-purple{
+    height: 250px;
+}
+
+    
+/*row*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*stilizazione*/
+
+.fl-r{
+    float: right;
+}
+
+.blu{
+    color: blue;
+}
+
+.bg-blu{
+    background-color: blue;
+}
+
+/* media query*/
+@media screen and {
+    
+}
